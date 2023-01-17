@@ -1,0 +1,219 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.img-scrol {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 8px;
+    border-radius: 4px;
+}
+.new-story, .btn-story {
+    width: 110px;
+    height: 152px;
+    border-radius: 4px;
+    background-color: rgba(203, 206, 206, 0.719);
+    flex: 0 0 110px;
+}
+div.btn-story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: dashed 1px gray;
+}
+.img-story{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+/* =================Nova postagem =====================================================*/
+
+.post_area {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+    background-color: rgba(114, 114, 114, 0.13);
+  
+}
+
+.nova_postagem {
+
+    border-radius:4px; 
+
+}
+
+
+.img_post_are {
+
+    margin: 11px 14px;
+    gap: 4px;
+    padding-top: 12px;
+    display: flex;
+    
+    
+}
+
+#msg {
+
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4d4d4d48;
+    
+}
+
+#msg::-webkit-input-placeholder {
+
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #adadad; }
+
+
+span.incluir{
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 72px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.post-btn{
+    padding-top: 12px;
+    display: inline-flex;
+    gap: 8px;
+    padding-bottom: 34px;
+}
+.btn{
+    height: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 12px;
+
+    border: 0px;
+    border-radius: 4px;
+    background-color: #4d4d4d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-postar{
+
+    margin-top: -45px;
+    height: 42px;
+    margin-left: 390px;
+    float: right;
+    font-weight: 400;
+    font-size: 16px;
+    width: 103px;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: #4d4d4d;
+    color: white;
+    border: 1px solid ;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-postar:hover {
+
+    background-color: red;
+
+}
+
+.btn:hover {
+
+    background-color: red;
+
+}
+
+
+.float-p{ /*Acrescentado da aside direita*/
+    margin-right: 12px;
+    float: left;
+    background-color: gray;
+}
+.f-name{ /*Acrescentado da aside direita*/
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.friend-post{
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: rgba(114, 114, 114, 0.13);
+
+}
+.post-friends{
+    margin: 12px;
+    padding-top: 12px;
+}
+.pad{
+    padding: 0 16px;
+    margin-bottom: 12px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.org-post{
+    margin: 0 16px;
+}
+.coments{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4d4d4d;
+    float: right;
+}
+hr.style-p {
+    width: 100%;
+    margin-top: 12px;
+    border-style: inset;
+    border: var(--color-vermelho-claro) 1px solid;
+}
+.new-post-image{
+    margin: 12px;
+    /* padding: 12px; */
+}
+.img-new-post{
+    border-radius: var(--border-radius);
+}
+
+/* || Barra de comentário */
+input[name="comentario"]{
+    width: 100%;
+    height: 48px;
+    border-radius: var(--border-radius);
+    margin-left: 12px;
+    border: 1px solid;
+    /* padding-left: 14px; */
+}
+.img-post{
+    margin: 0 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    display: flex;
+}
+.profile-img{
+    border-radius: var(--border-radius);
+}
+
+
+.p_status {
+
+    margin-top: -7px;
+    color: #4d4d4d81;
+}
+.name pad {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+

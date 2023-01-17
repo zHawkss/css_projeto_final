@@ -1,0 +1,273 @@
+
+.parte_lateral_esq {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #949494;
+    border-radius: 10px;
+
+    
+    
+}
+
+.foto_capa {
+    background-image: url("/images/fotos/foto-capa.jpeg");
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 27%) 0px 5px 10px;
+}
+
+.item1_luffy {
+
+    background-image: url("/images/fotos/luffy.png");
+    width: 128px;
+    height: 128px;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 5px 10px;
+    position: absolute;
+    top: 117px;
+}
+
+.div_correcao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding:0 24px ;
+}
+
+.h1_lateral_esq {
+
+
+    font-family: 'Bebas Neue', cursive;
+}
+
+.titulo_abaixo_nome {
+    margin-top: -33px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.titulo_cinza {
+
+    margin-top: -15px;
+    font-style: oblique;
+    font-family: 'Bebas Neue', cursive;
+    color: #94949486;
+}
+
+.box_geral {
+    
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contadores {
+
+    width: 100%;
+    box-sizing: border-box;
+    padding:0 24px;
+    margin-bottom: 10px;
+
+}
+
+.box1 {
+
+    display: flex;
+    
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 87px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(219, 219, 219, 0.842);
+    border-radius: 4px;
+}
+
+.p_absolute {
+
+    position: relative;
+    top: -40px;
+    font-size: 18px;
+    color: #949494;
+}
+
+.box2 {
+
+    display: flex;
+    
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 87px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(219, 219, 219, 0.842);
+    border-radius: 4px;
+}
+
+.linha_esq {
+    width: 100%;
+    height: 1px;
+    position: static;
+    background-color: black;
+    border: solid black 1px;
+
+}
+
+
+.botoes_config {
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 8px;
+    margin-bottom: 25px;
+    
+
+  
+}
+
+.btn_esq {
+
+    display: flex;
+    gap: 8px;
+    background-color: var(--color-cinza-claro);
+    height: 48px;
+    align-items: center;
+    padding-left: 26px;
+    cursor: pointer;
+    border: 0px;   
+    transition: 0.5s;
+
+    
+
+    font-size: larger;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 4px;
+
+}
+
+.btn_esq:hover {
+
+    background-color: #9494948f;
+
+}
+/* ============================= */
+.region{ 
+
+    font-size: 29px;
+    font-family: 'Righteous', cursive;
+
+}
+
+
+.border_box {
+
+    border: 1px solid black;
+    padding:10px ;
+}
+
+.adicionar_amigos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+
+}
+
+.P_proximos {
+
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+
+
+    
+}
+
+
+.botaoadicionar {
+    
+    background-repeat: no-repeat;
+    background-color: #47474738;
+    width: 32px;
+    height: 32px;
+    
+    background-image: url(../images/icon/Botaoadicionar.png);
+    background-size: 30px;
+    cursor: pointer;
+    transition: .5s;
+    
+
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 4px;
+}
+
+
+.grupo_funcao h6 {
+
+margin: 0;
+line-height: 18px;
+
+}
+
+.grupo_funcao small {
+
+    margin: 0px;
+
+}
+
+
+._emalta_Principal {
+
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .5s;
+
+
+}
+
+.small_tempo {
+
+    color: #949494;
+
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+
+.responsive, .responsive_col3 {
+    display: none;
+}
+
+@media screen and (min-width: 992px) { 
+    .responsive {
+        display: initial;
+    }    
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .responsive_col3 {
+
+        display: initial;
+
+    }
+
+}
